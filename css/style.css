@@ -171,3 +171,51 @@ font-family: 'Oswald', sans-serif;  */
   margin-top: 40px;
 }
  
+
+@media (max-width:710px) {
+  .container {
+    width: 710px;
+  }
+  .header {
+    width: 710px;
+  }
+  img {
+    width: 710px;
+  }
+}
+
+@media (max-width:600px) {
+  h1 {
+    font-size: 48px;
+  }
+
+  h2 {
+    font-weight: 40px;
+  }
+
+  .p {
+    font-size: 20px;
+  }
+
+  figure {
+    font-size: 25px;
+  }
+}
+
+@media (max-width:450px) {
+  h1 {
+    font-size: 52px;
+  }
+
+  h2 {
+    font-weight: 44px;
+  }
+
+  .p {
+    font-size: 24px;
+  }
+
+  figure {
+    font-size: 29px;
+  }
+}
