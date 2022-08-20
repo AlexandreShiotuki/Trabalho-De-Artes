@@ -1,59 +1,120 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,300&family=Oswald:wght@700&display=swap" rel="stylesheet">
+ 
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <title>TRABALHO DE ARTES</title>
+  
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <script src="js/main.js"></script>
+
+  <title>HISTÓRIA DA ARTE</title>
+
 </head>
-<body>
-<div class="container">
-  <h1 class="title">A história da arte</h1>
 
-  <div class="first-text">
+<body onload="load()">
+  <div class="container">
 
- <img src="./imagens/pinturarupestre.webp" alt="pintura rupestre"
-  class="rupestre">
+    <header class="header">
+     <p class="logo">TRABALHO DE ARTES</p>
 
-    <div class="text">
+     <div class="redes-sociais">
+     <a href="https://github.com/AlexandreShiotuki" target="_blank" class="links">GitHub</a>
+     <a href="https://www.linkedin.com/in/alexandre-shiotuki-bb20a3240/" target="_blank" class="links">Linkedin</a>
+     <a href="https://www.instagram.com/alexandre.shiotuki/" target="_blank" class="links">Instagram</a>
+     </div>
 
-  <p class="paragraph-rupestre">Os primeiros artefactos tangíveis que podem ser considerados arte aparecem na Idade da Pedra 
+
+
+    </header>
+
+    <main class="principal">
+
+  <h1>A história da arte</h1>
+
+  <div>
+  <img src="./imagens/pinturarupestre.webp" alt="pintura rupestre" class="rupestre">
+  </div>
+
+  <p class="p">Os primeiros artefactos tangíveis que podem ser considerados arte aparecem na Idade da Pedra 
     (Paleolítico superior, Mesolítico e neolítico). Durante o Paleolítico (25 000–8 000 a.C.) o Homem
      era ainda caçador-coletor, habitando cavernas que viriam a ser os primeiros suportes de arte rupestre.</p>
-    
-    </div>
-  </div>
 
-  <div class="second-text">
-    <p class="paragraph-reason"> Podemos dizer que a arte surgiu junto com o homem, pois
-       ela é a manifestação mais profunda do intelecto e da alma humana. A arte é responsável
-        por transmitir emoções e por imortalizar fatos, pessoas, épocas e histórias.
-    </p>
-    <img src="./imagens/monalisa.jpg.webp" alt="monalisa" class="monalisa">
-  </div>
-  <hr />
+  <p class="p">Podemos dizer que a arte surgiu junto com o homem, pois
+    ela é a manifestação mais profunda do intelecto e da alma humana. A arte é responsável
+     por transmitir emoções e por imortalizar fatos, pessoas, épocas e histórias.</p>   
+  
+     <h2 class="subtitle">Quais são os tipos de arte?</h2>
+     
+     <p class="p">Atualmente, há 11 tipos de arte:
+      música, dança, pintura, escultura, teatro, literatura, cinema, 
+      fotografia, história em quadrinhos (HQ), jogos eletrônicos e arte digital.</p>
 
-  <div class="third-text">
+      <img src="./imagens/van-gogh.webp" alt="" class="pintura">
+      <figure>
+        <figcaption>
+          <p class="van-gogh">Campo de trigo com ciprestes, de Vincent van Gogh</p>
+        </figcaption>
+      </figure>
+</main>
 
-    <h2 class="subtitle"> Quais são os tipos de arte?</h2>
+    <article class="second-block">
+      <h2 class="subtitle-games"> Arte nos Jogos </h2>
 
-    <p class="paragraph-types"> Atualmente, há 11 tipos de arte:
-       música, dança, pintura, escultura, teatro, literatura, cinema, 
-       fotografia, história em quadrinhos (HQ), jogos eletrônicos e arte digital.
-    </p>
+      <p class="p">A questão é polêmica, divide opiniões e praticamente todo jogador que se preze já deve ter
+         se questionado sobre o fato de um título ser ou não considerado uma obra de arte. Afinal, como 
+         não valorizar jogos que marcaram gerações e ficaram na memória de milhares de pessoas?</p>
+      
+         <img src="./imagens/tlou.webp" alt="" class="tlou">
+
+      <figure>
+        <figcaption>
+          <p class="info-tlou-img">Gráficos de The Last Of Us 2, lançado em 19 de junho de 2020</p>
+        </figcaption>
+      </figure>    
+   
+
+      <h2 class="question">Mas afinal, o que é "<span id="destaque">arte</span>"?</h2>
+
+    <p class="p">A definição da arte ainda é algo extremamente difícil de entender, afinal, são justamente especialistas
+       e sua representação que costumam classificar o quão artística uma obra pode ser. Um conceito muito utilizado 
+       para gerar esta avaliação é o definido pelo crítico cultural, filósofo e sociólogo Walter Benjamin: o "Hic et Nunc" (Aqui e Agora), 
+       no qual ele expressa o quão necessário é vermos uma obra de arte pessoalmente em uma exposição ou local de exibição natural, mas, como podemos
+       encaixar os jogos nisto? Não há como, pois não existe um cinema, um teatro ou uma exposição para jogarmos.</p>
+
+         <img src="./imagens/santa-ceia-games.jpg" alt="" class="santa-ceia">
+
+         <figure>
+          <figcaption>
+            <p class="info-santa-ceia"> A Santa Ceia versão jogos </p>
+          </figcaption>
+        </figure>   
+
+        <p class="p">Entendo perfeitamente pessoas que pensam que jogos são feitos apenas para entreter ou gerar um ambiente de competitividade, isto mostra
+           o quão presas elas são a uma cultura de preconceitos sobre outras formas de expressão que não estão familiarizadas, inclusive, é bem provável
+            que muitos que pensam assim conheçam apenas gêneros de jogos como estratégia, plataforma, MOBA, shooters competitivos e outros que não costumam 
+            investir na elaboração de um enredo mais bem estruturado.</p>
+
+        <p class="p">Estes jogos que costumam investir no desenvolvimento de um enredo mais filosófico geralmente não recebem um espaço considerável na indústria dos videogames
+           porque obviamente não vendem tanto, então são muito ligados à categoria "Indie", na qual ficam os jogos independentes. Acredito que os dois melhores exemplos
+           que posso utilizar aqui são <span id="journey" onclick="WhatIsJourney()">Journey</span> e <span id="lis" onclick="WhatIsLis()">Life Is Strange</span>, que tiveram a sorte de terem os seus projetos acolhidos por grandes produtoras e, por isto, são conhecidos por uma parcela maior de jogadores.</p>
+
+           <img src="./imagens/journey-e-lis.jpg" alt="" class="exemples">
+       </article>
+    <footer class="footer">
+      <p class="final">Acesse o conteúdo original clicando <a href="./FONTES/fontes.html" class="fontes" target="_blank">AQUI</a></p>
 
 
-
-    <div class="trio">
-      <img src="./imagens/van-gogh.webp" alt="quadro de van-gogh" class="triozinho">
-      <img src="./imagens/mulherfotografando-cke.webp" alt="mulher fotografando" class="triozinho">
-      <img src="./imagens/los_20_tipos_de_arte_que_existen_-_about-meaningcom_13.jpg.webp" alt="tipos de artes" class="triozinho">
-    </div>
-
-  </div>
+    </footer>
 
 </div>
-
 </body>
+
 </html>

@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #676F54;
+}
+
+/*
+hr {
+  margin-top: 25px;
+  margin-bottom: 40px;
+}
+*/
+
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Oswald', sans-serif;  */
+
+
+
+ /* LINKS */
+
+ .links {
+  color: #F45B69;
+  text-decoration: none;
+
+  padding: 10px;
+ }
+
+ /* SEMÂNTICOS */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Oswald', sans-serif;
+  background: #114B5F;
+  color: #F45B69;
+}
+
+.principal {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.second-block {
+  text-align: center;
+  background: #0D1821;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Montserrat', sans-serif;
+  color: #5386E4;
+  background-color: #2C423F;
+}
+
+ /* TEXTOS */
+
+ .logo {
+  padding-left: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+ }
+
+ h1 {
+  font-family: 'Oswald', sans-serif;
+  color: #E4FDE1;
+  text-align: center;
+ }
+
+ .p {
+  color: #E4FDE1;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 30px;
+ }
+
+ .subtitle {
+  color: #E4FDE1;
+  font-family: 'Oswald', sans-serif;
+  margin-top: 50px;
+ }
+
+ .van-gogh{
+  margin-top: 15px;
+  margin-bottom: 15px; 
+  font-family: 'Montserrat', sans-serif;
+ }
+
+ .subtitle-games {
+  color: #E4FDE1;
+  font-family: 'Montserrat', sans-serif;
+  padding-top: 20px;
+ }
+
+ .info-tlou-img {
+  color: #E4FDE1;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 10px;
+ }
+
+ .question {
+  color: #E4FDE1;
+  font-family: 'Nunito Sans', sans-serif;
+  margin-top: 50px;
+ }
+
+ #destaque {
+  color: #29ff0d;
+ }
+
+ .info-santa-ceia {
+  color: #E4FDE1;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 10px;
+ }
+
+ #journey {
+  color: #29ff0d;
+  font-weight: bold;
+  text-decoration:underline;
+ }
+
+ #lis {
+  color: #1064ff;
+  font-weight: bold;
+  text-decoration:underline;
+ }
+
+.final {
+  padding-left: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.fontes {
+  color: #29ff0d;
+}
+
+
+ /* IMAGENS */
+
+.rupestre {
+  margin-top: 40px;
+  width: 700px;
+  height: 250px;
+}
+
+.pintura {
+  width: 700px;
+  margin-top: 50px;
+}
+
+.tlou {
+  margin-top: 40px;
+  width: 700px;
+  height: 480px;
+}
+
+.santa-ceia {
+  margin-top: 25px;
+  width: 700px;
+}
+
+.exemples {
+  width: 700px;
+  margin-top: 40px;
+}
+ 
